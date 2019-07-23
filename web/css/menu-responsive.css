@@ -2,7 +2,7 @@ li {
   margin: 1rem;
 }
 
-.main-menu-btn {
+#main-menu-btn {
   position: relative;
   display: inline-block;
   width: 28px;
@@ -22,36 +22,30 @@ li {
           border-radius: 5px;
 }
 
-#main-nav #toggle {
+#toggle {
   display: block;
 }
 
-#main-nav ul.main-menu {
+#main-menu {
   display: none;
+}
+
+#main-menu.dblock {
+  display: block;
 }
 
 @media (min-width: 768px) {
   /* hide the button in desktop view */
-  #main-nav #toggle {
+  #toggle {
     display: none;
   }
-  #main-nav ul.main-menu {
-    display: block;
+  #main-menu {
+    display: block !important;
   }
 }
 
 a:focus {
-  background-color: maroon !important;
-  color: white !important;
-}
-
-.closed,
-.closed * {
-  background-color: red !important;
-}
-
-.opened,
-.opened * {
   background-color: green !important;
+  color: white !important;
 }
 /*# sourceMappingURL=menu-responsive.css.map */

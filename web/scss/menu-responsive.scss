@@ -5,7 +5,7 @@ html,
 html * {
   // background-color: black !important;
 }
-.main-menu-btn {
+#main-menu-btn {
   position: relative;
   display: inline-block;
   width: 28px;
@@ -22,30 +22,31 @@ html * {
   cursor: pointer;
   border-radius: 5px;
 }
-#main-nav {
-  #toggle {
+
+#main-nav #toggle + ul#main-menu {
+}
+#toggle {
+  display: block; // show toggle button in mobile
+}
+
+#main-menu {
+  display: none; // hide menu in mobile
+  &.dblock {
     display: block;
   }
-  ul.main-menu {
-    display: none;
-  }
-}
-#main-nav #toggle + ul.main-menu {
 }
 @media (min-width: 768px) {
   /* hide the button in desktop view */
-  #main-nav {
-    #toggle {
-      display: none;
-    }
-    ul.main-menu {
-      display: block;
-    }
+  #toggle {
+    display: none; // hide toggle desktop
+  }
+  #main-menu {
+    display: block !important; //show desktop menu
   }
 }
 
 a:focus {
-  background-color: maroon !important;
+  background-color: green !important;
   color: white !important;
 }
 
@@ -54,14 +55,4 @@ a:focus {
   }
   #main-menu {
   }
-}
-
-.closed,
-.closed * {
-  background-color: red !important;
-}
-
-.opened,
-.opened * {
-  background-color: green !important;
 }
