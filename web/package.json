@@ -1,0 +1,28 @@
+{
+  "name": "responsible-menu",
+  "version": "1.0.0",
+  "description": "menu responsive accesible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carcheky/responsible-menu.git"
+  },
+  "keywords": [
+    "menu",
+    "responsive",
+    "accesible"
+  ],
+  "author": "carcheky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carcheky/responsible-menu/issues"
+  },
+  "homepage": "https://github.com/carcheky/responsible-menu#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "smartmenus": "^1.1.0"
+  }
+}
