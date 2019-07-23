@@ -61,11 +61,16 @@
     <!-- ul>li*5>a[href=/#tag$]{  $} -->
 
     <!-- Sample menu definition -->
-    <nav id="main-nav" role="navigation" aria-labelledby="main-menu">
-      <button id="toggle" class="closed" aria-expanded="false">
+    <nav
+      id="main-nav"
+      class="closed"
+      role="navigation"
+      aria-labelledby="main-menu"
+    >
+      <button class="toggle" aria-expanded="false">
         <i class="fas fa-bars"></i> Menu
       </button>
-      <ul class="main-menu sm sm-simple">
+      <ul id="main-menu" class="main-menu sm sm-simple">
         <li>
           <a href="#tag1">Item 1</a>
           <ul>

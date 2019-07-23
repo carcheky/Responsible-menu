@@ -48,3 +48,20 @@ a:focus {
   background-color: maroon !important;
   color: white !important;
 }
+
+#main-nav {
+  #toggle {
+  }
+  #main-menu {
+  }
+}
+
+.closed,
+.closed * {
+  background-color: red !important;
+}
+
+.opened,
+.opened * {
+  background-color: green !important;
+}

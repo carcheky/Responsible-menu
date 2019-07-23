@@ -44,4 +44,14 @@ a:focus {
   background-color: maroon !important;
   color: white !important;
 }
+
+.closed,
+.closed * {
+  background-color: red !important;
+}
+
+.opened,
+.opened * {
+  background-color: green !important;
+}
 /*# sourceMappingURL=menu-responsive.css.map */
