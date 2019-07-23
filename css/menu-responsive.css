@@ -1,0 +1,47 @@
+li {
+  margin: 1rem;
+}
+
+.main-menu-btn {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-indent: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#toggle {
+  padding: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+#main-nav #toggle {
+  display: block;
+}
+
+#main-nav ul.main-menu {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* hide the button in desktop view */
+  #main-nav #toggle {
+    display: none;
+  }
+  #main-nav ul.main-menu {
+    display: block;
+  }
+}
+
+a:focus {
+  background-color: maroon !important;
+  color: white !important;
+}
+/*# sourceMappingURL=menu-responsive.css.map */
