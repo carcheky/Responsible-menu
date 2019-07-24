@@ -1,9 +1,3 @@
-@import url(c:\wsl\sites\menu\web\css\assets\sm-core-css.css);
-@import url(c:\wsl\sites\menu\web\css\assets\sm-simple.css);
-@import url(c:\wsl\sites\menu\web\css\assets\all.css);
-@import url(c:\wsl\sites\menu\web\css\assets\fontawesome.css);
-@import url(c:\wsl\sites\menu\web\css\assets\solid.css);
-@import url(c:\wsl\sites\menu\web\css\assets\regular.css);
 li {
   margin: 1rem;
 }
@@ -54,4 +48,4 @@ a:focus {
   background-color: green !important;
   color: white !important;
 }
-/*# sourceMappingURL=menu-responsive.css.map */
+/*# sourceMappingURL=responsible-menu.css.map */
